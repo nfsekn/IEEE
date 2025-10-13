@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+  <!-- IEEE Logo Simple Version -->
+  <rect width="200" height="80" fill="#00629B"/>
+  
+  <!-- IEEE Text -->
+  <text x="100" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">IEEE</text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="55" font-family="Arial, sans-serif" font-size="8" fill="#FFD700" text-anchor="middle">Institute of Electrical and Electronics Engineers</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="20" cy="20" r="3" fill="#FFD700" opacity="0.7"/>
+  <circle cx="180" cy="60" r="3" fill="#FFD700" opacity="0.7"/>
+  <rect x="15" y="65" width="20" height="2" fill="#FFD700" opacity="0.5"/>
+  <rect x="165" y="15" width="20" height="2" fill="#FFD700" opacity="0.5"/>
+</svg>
