@@ -214,6 +214,65 @@ body {
     animation: fadeInUp 1s ease-out 0.6s both;
 }
 
+.hero-social {
+    margin-top: 2rem;
+    animation: fadeInUp 1s ease-out 0.8s both;
+}
+
+.social-text {
+    color: var(--white);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+}
+
+.hero-social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-social-links a {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--white);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-social-links a:hover {
+    transform: translateY(-3px) scale(1.1);
+    background: var(--white);
+    color: var(--primary-color);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.hero-social-links a[href*="linkedin"]:hover {
+    background: #0077B5;
+    color: var(--white);
+}
+
+.hero-social-links a[href*="whatsapp"]:hover {
+    background: #25D366;
+    color: var(--white);
+}
+
+.hero-social-links a[href*="instagram"]:hover {
+    background: linear-gradient(45deg, #E4405F, #C13584);
+    color: var(--white);
+}
+
+.hero-social-links a[href*="mailto"]:hover {
+    background: #EA4335;
+    color: var(--white);
+}
+
 .btn {
     display: inline-block;
     padding: 1rem 2rem;
@@ -701,21 +760,37 @@ section {
 }
 
 .social-links a {
-    background: var(--primary-color);
+    background: #444;
     color: var(--white);
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    font-size: 1.1rem;
 }
 
 .social-links a:hover {
-    background: var(--accent-color);
-    color: var(--dark-color);
-    transform: translateY(-3px);
+    transform: translateY(-3px) scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.social-links a[href*="linkedin"]:hover {
+    background: #0077B5;
+}
+
+.social-links a[href*="whatsapp"]:hover {
+    background: #25D366;
+}
+
+.social-links a[href*="instagram"]:hover {
+    background: linear-gradient(45deg, #E4405F, #C13584);
+}
+
+.social-links a[href*="mailto"]:hover {
+    background: #EA4335;
 }
 
 .footer-contact p {
@@ -788,6 +863,16 @@ section {
     }
     
     .hero-description {
+        font-size: 1rem;
+    }
+    
+    .hero-social-links {
+        gap: 0.8rem;
+    }
+    
+    .hero-social-links a {
+        width: 40px;
+        height: 40px;
         font-size: 1rem;
     }
     
